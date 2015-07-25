@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="etc/style.css">
 	<script src="config.js"></script>
 	<script src="etc/jquery.min.js"></script>
-	
+
 	<script src="etc/load.js"></script>
 </head>
 <body onload="load(); ww();">
@@ -17,12 +17,15 @@
 		</div>
 	<div class="r2" id="r2"></div>
 		<div class="r1" id="r1"></div>
-		
+
 		<div class="date" id="date">
 			<span id="d1">JULY</span><span id="d2">30</span>
 		</div>
 		<div class="time" id="time">
 			<span id="t1">09</span><span id="t2">41</span>
+		</div>
+		<div>
+		<img class="name" id="name">
 		</div>
 		<img class="tap" id="tap" src="img/tap.png">
 		<img class="slide" id="slide" src="img/slide.png">
@@ -34,7 +37,7 @@ if (AlwaysSlideToUnlock == false){
 	});
 	document.getElementById('slide').addEventListener('touchstart',function(){
 		groovyAPI.unlockPhone();
-	});	
+	});
 }
 </script>
 <script>
@@ -76,7 +79,7 @@ batteryStats({
 			document.getElementById('d2').innerHTML = clock.date();
 		}
 	});
-</script> 
+</script>
 <script>
 	var scale = window.innerWidth / 320;
 	function ww() {
