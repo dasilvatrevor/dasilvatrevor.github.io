@@ -14,6 +14,8 @@ var TapYPos = 0;
 var TimeYPos = 93;
 //sets the y-position of the time
 //default value is 200
+var nameYPos = 0;		                                                      //NAME 
+//sets the y-position of the name
 var TimeNotificationYPos = 70;
 //sets the y-position of the time when notifications are present
 //default value is 70
