@@ -10,9 +10,14 @@
 }
 .name {
 	position: absolute;
-	font-size: 12px;
-	text-align: left;
-	font-family: 'rl'
+	text-align: center;
+	color: #000000;
+	top: 10px;
+	left: 25px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: 'rl';
+	font-size: 16px;
 }
 .time {
 	position: absolute;
@@ -21,7 +26,8 @@
 	text-align: center;
 	color: #000000;
 	opacity: 0;
-	font-family: 'rl'
+	font-family: 'rl';
+	letter-spacing: 3px;
 }
 .date {
 	position: absolute;
@@ -31,7 +37,7 @@
 	color: #000000;
 	opacity: 0;
 	text-transform: uppercase;
-	font-family: 'rl'
+	font-family: 'rl';
 }
 .beeper {
 	position: absolute;
@@ -43,7 +49,7 @@
 	opacity: 100;
 	z-index: 4;
 	text-transform: uppercase;
-	font-family: 'rl'
+	font-family: 'rl';
 }
 
 .touchbox {

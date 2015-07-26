@@ -34,6 +34,7 @@ function load() {
 	document.getElementById('tap').style.left = 160 - TapToUnlockWidth / 2 + "px";
 	document.getElementById('slide').style.width = SlideToUnlockWidth + "px";
 	document.getElementById('slide').style.left = 160 - SlideToUnlockWidth / 2 + "px";
+
 	$("#time").animate({opacity: '1'}, FadeIn);
 	$("#tap").animate({opacity: '1'}, FadeIn);
 	$("#r2").animate({opacity: BatteryRectangleOpacity}, FadeIn);

@@ -6,7 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="etc/style.css">
 	<script src="config.js"></script>
 	<script src="etc/jquery.min.js"></script>
-
 	<script src="etc/load.js"></script>
 </head>
 <body onload="load(); ww();">
@@ -17,19 +16,23 @@
 		</div>
 	<div class="r2" id="r2"></div>
 		<div class="r1" id="r1"></div>
-
+		<div class="name" id="name">
+			<span id="name"></span>
+		</div>
 		<div class="date" id="date">
 			<span id="d1">JULY</span><span id="d2">30</span>
 		</div>
 		<div class="time" id="time">
 			<span id="t1">09</span><span id="t2">41</span>
 		</div>
-		<div>
-		<img class="name" id="name">
-		</div>
 		<img class="tap" id="tap" src="img/tap.png">
 		<img class="slide" id="slide" src="img/slide.png">
 	</section>
+
+<script>
+document.getElementById('name').innerHTML= Name;
+</script>
+
 <script>
 if (AlwaysSlideToUnlock == false){
 	document.getElementById('tap').addEventListener('touchstart',function(){
