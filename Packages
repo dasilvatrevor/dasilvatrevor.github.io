@@ -1,12 +1,12 @@
 Package: com.dasilvatrevor.NoMansSkylockscreen
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Trevor <dasilvatrevor@gmail.com>
-Filename: ./debs//com.dasilvatrevor.nomansskylockscreen_1.0_iphoneos-arm.deb
-Size: 4610814
-MD5sum: 0832a4aa9ab8184673ea924845ab2e2a
-SHA1: 8348172e0673a70211ff9bef290b7e9462aae298
-SHA256: 4b895b3fa83521a0428fa90a54c7ce769ec8fbfaf8e96a700045c59b6eb34338
+Filename: ./debs//com.dasilvatrevor.nomansskylockscreen_1.1_iphoneos-arm.deb
+Size: 4527142
+MD5sum: 0b919805d5af92e6e7d63e39cdcb597a
+SHA1: 70212231882f26f4b06eb12647c72b87a8bc031f
+SHA256: 8162a91c2c6c23918a6fdbfa05bc6da066a75743b9219665b67a599970daec47
 Section: Lockscreen
 Description: A No Man's Sky HTML lockscreen. This was created using Groovylock
 Author: Trevor <dasilvatrevor@gmail.com>
