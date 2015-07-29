@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	height: 568px;
+	width: 320px;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+}
+.name {
+	position: absolute;
+	text-align: center;
+	color: #000000;
+	top: 10px;
+	left: 25px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: 'rl';
+	font-size: 16px;
+}
+.time {
+	position: absolute;
+	font-size: 24px;
+	left: 170px;
+	top: 15px;
+	text-align: center;
+	color: #000000;
+	opacity: 0;
+	font-family: 'rl';
+	letter-spacing: 3px;
+}
+.date {
+	position: absolute;
+	font-size: 1em;
+	width: 320px;
+	text-align: center;
+	color: #000000;
+	opacity: 0;
+	text-transform: uppercase;
+	font-family: 'rl';
+}
+.beeper {
+	position: absolute;
+	font-size: 22px;
+	left: 105px;
+	top: 31px;
+	text-align: center;
+	color: #000000;
+	opacity: 100;
+	z-index: 4;
+	text-transform: uppercase;
+	font-family: 'rl';
+}
+
+.touchbox {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	background-color: #ff0000;
+	left: 0px;
+	opacity: 0;
+	z-index: 3;
+}
+.r1 {
+	position: absolute;
+	width: 0px;
+	height: 8px;
+	top: 62px;
+	left: 79px;
+
+	background-color: black;
+	opacity: 0;
+	z-index: 2;
+}
+.r2 {
+	position: absolute;
+	width: 0px;
+	height: 8px;
+	top: 62px;
+	left: 79px;
+
+	background-color: black;
+	opacity: 0;
+	z-index: 1;
+}
+.tap {
+	position: absolute;
+	width: 40px;
+	left: 140px;
+	top: 240px;
+	opacity: 0;
+}
+.slide {
+	position: absolute;
+	width: 40px;
+	left: 140px;
+	top: 290px;
+	opacity: 0;
+}
+@font-face{
+	font-family: 'rl';
+	src:url(Georgia.ttf);
+}
