@@ -2,25 +2,27 @@ Package: com.dasilvatrevor.NoMansSkylockscreen
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Trevor <dasilvatrevor@gmail.com>
+Depends: com.matchstic.infostats
 Filename: ./debs//com.dasilvatrevor.nomansskylockscreen_1.1_iphoneos-arm.deb
-Size: 4527142
-MD5sum: 6c6f5059b2b14decb845d8735438a0d5
-SHA1: 9ac619569b5bd1a33269ba1fd7acc112f321fe61
-SHA256: 67435ff2fe358725d1e222584bbc988b17c655944df33263a0472d60a5bf9336
+Size: 4526706
+MD5sum: 2124ca9138a214fdec4910b649e7f839
+SHA1: d7e229974a1a754e66941a504f6ab17da5a18a39
+SHA256: ff68b00821635ffc2aeb8f056602ba51a90927f1f4b63268215befedeaafb248
 Section: Lockscreen
 Description: A No Man's Sky HTML lockscreen. This was created using Groovylock
 Author: Trevor <dasilvatrevor@gmail.com>
 Name: No Man's Sky lockscreen
 
 Package: com.dasilvatrevor.PokemonLockscreen
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Trevor <dasilvatrevor@gmail.com>
-Filename: ./debs//com.dasilvatrevor.pokemonlockscreen_1.0_iphoneos-arm.deb
-Size: 256456
-MD5sum: 82048bbd110e66f28218e6018551dc87
-SHA1: 84a9fe09bbc4badad053af1b60f21a2515121fe1
-SHA256: f70a3f06754f6a60c33ff272bb783fd7f300ccda85860b14282b8914e8c1dff7
+Depends: com.matchstic.infostats
+Filename: ./debs//com.dasilvatrevor.pokemonlockscreen_1.1_iphoneos-arm.deb
+Size: 256096
+MD5sum: 589f1a36c90e57b7b554bc5a7d899d1b
+SHA1: 4336c83698afa2340a538e5e8ebfc78494fa9880
+SHA256: 2b5a7e3b284f222691e09166aadde5707b9886e37a39040390a3d1728a0fa211
 Section: Lockscreen
 Description: A Pokemon HTML lockscreen. This was created using Groovylock
 Author: Trevor <dasilvatrevor@gmail.com>
