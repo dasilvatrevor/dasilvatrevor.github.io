@@ -34,16 +34,6 @@ document.getElementById('name').innerHTML= Name;
 </script>
 
 <script>
-if (AlwaysSlideToUnlock == false){
-	document.getElementById('tap').addEventListener('touchstart',function(){
-		groovyAPI.unlockPhone();
-	});
-	document.getElementById('slide').addEventListener('touchstart',function(){
-		groovyAPI.unlockPhone();
-	});
-}
-</script>
-<script>
 	document.getElementById('time').addEventListener('touchstart',function(){
 		if (AlwaysDate == false){
 			date();
