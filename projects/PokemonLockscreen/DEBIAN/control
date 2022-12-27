@@ -1,9 +1,0 @@
-Package: com.dasilvatrevor.PokemonLockscreen
-Name: Pokemon lockscreen
-Depends: com.matchstic.infostats
-Version: 1.2
-Architecture: iphoneos-arm
-Description: A Pokemon HTML lockscreen. This was created using Groovylock
-Maintainer: Trevor <dasilvatrevor@gmail.com>
-Author: Trevor <dasilvatrevor@gmail.com>
-Section: Lockscreen

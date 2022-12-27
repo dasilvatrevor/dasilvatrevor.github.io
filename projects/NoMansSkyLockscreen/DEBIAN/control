@@ -1,9 +1,0 @@
-Package: com.dasilvatrevor.NoMansSkylockscreen
-Name: No Man's Sky lockscreen
-Depends: com.matchstic.infostats
-Version: 1.1
-Architecture: iphoneos-arm
-Description: A No Man's Sky HTML lockscreen. This was created using Groovylock
-Maintainer: Trevor <dasilvatrevor@gmail.com>
-Author: Trevor <dasilvatrevor@gmail.com>
-Section: Lockscreen
